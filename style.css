@@ -1,0 +1,135 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    --cor-texto: hsl(214, 17%, 51%);
+    --cor-titulo:hsl(217, 19%, 35%);
+    --cor-fundo: hsl(212, 100%, 88%);
+    --cor-botao1: hsl(210, 46%, 95%);
+}
+
+
+body {
+    background-color: var(--cor-fundo);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-principal {
+    width: 300px;
+}
+
+.container {
+    background-color: var(--cor-botao1);
+    width: 800px;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.div-maior {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    color: var(--cor-titulo);
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 15px;
+    color: var(--cor-titulo);
+}
+
+.date {
+    font-size: 13px;
+    color: var(--cor-texto);
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.div-ana {
+    display: block;
+    margin-left: 20px;
+}
+
+.texto-principal {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--cor-texto);
+    margin: 20px 0 20px 0;
+}
+
+.div-media {
+    display: flex;
+}
+
+.img-media {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.botao {
+    margin-left: 180px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--cor-fundo);
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.botao:active {
+    background-color: var(--cor-titulo);
+}
+
+.botao:hover {
+    opacity: 0.8;
+    scale: 1.3;
+}
+
+.div-active {
+    display: flex;
+    background-color: var(--cor-titulo);
+    height: 50px;
+    width: 220px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    bottom: 150px;
+    left: 320px;
+}
+
+.div-active {
+    display: none;
+}
+
+.disable {
+    display: flex;
+}
+
+.link-facebook {
+    margin: 0 20px 0 20px;
+}
+
+.link-tiwitter {
+    margin-right: 20px;
+}
+
+.texto-active {
+    color: var(--cor-fundo);
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
